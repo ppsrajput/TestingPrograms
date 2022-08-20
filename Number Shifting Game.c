@@ -140,10 +140,11 @@ void startGame(int a[4][4],char name[])
         {
             changeTextColor(2);
             printf("\n\n\t\t Congratulations !! %s , You Won .....\n\n",name);
+
             changeTextColor(15);
+            printf("\n\n\t\t Press any key to exit\n\n");
             getch();
             break;
-
 
         }
 
