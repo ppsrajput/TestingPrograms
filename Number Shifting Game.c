@@ -13,8 +13,8 @@ void startGame(int a[4][4],char name[]);
 void changeTextColor(int code);
 int checkPlayerWon(int a[4][4]);
 int zeroValueIndex;
-int maxMoves=200;
-int RepeatMoves=200;
+int maxMoves=400;
+int RepeatMoves=400;
 int newZeroValueIndex;
 int main()
 {
