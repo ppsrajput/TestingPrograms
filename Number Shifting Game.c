@@ -13,8 +13,8 @@ void startGame(int a[4][4],char name[]);
 void changeTextColor(int code);
 int checkPlayerWon(int a[4][4]);
 int zeroValueIndex;
-int maxMoves=400;
-int RepeatMoves=400;
+int maxMoves=600;
+int RepeatMoves=600;
 int newZeroValueIndex;
 int main()
 {
@@ -141,7 +141,9 @@ void startGame(int a[4][4],char name[])
             changeTextColor(2);
             printf("\n\n\t\t Congratulations !! %s , You Won .....\n\n",name);
             changeTextColor(15);
+            getch();
             break;
+
 
         }
 
